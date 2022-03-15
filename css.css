@@ -34,9 +34,8 @@ html {
 /* **************************************************NAV************************************* */
   nav {
     position: fixed;
-    width: 350%;
     opacity: 0.9;
-    text-align: right;
+    text-align: center;
     background-color: #FFFAE1;
     position: relative;
     font-size: 30px;
