@@ -4,6 +4,8 @@
 html {
     scroll-behavior: smooth;
     border-spacing: 5px 1rem;
+    overflow: scroll;
+
   }
   
   body {
