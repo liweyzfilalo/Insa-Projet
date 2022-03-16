@@ -139,6 +139,24 @@ html {
   border-radius: 10px;
   box-shadow: 0px 0px 50px black;
 }
+#blocccc {
+font-family: 'Shippori Antique B1', sans-serif;
+  background-color: rgba(23, 120, 211, 0.705);
+  height: max-content;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 50px;
+  box-shadow: #524A3A;
+  font-size: 1em;
+  text-align: center;
+  color: #FFFAE1;
+  float: inline-start;
+  margin: right;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px black;
+
+}
 #TexteInto {
     flex-grow: initial;
 }
