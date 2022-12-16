@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - The Hacking Game (I have no life)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+<title>HACKSYS the hacking game</title>
+
+<audio autoplay loop>
+  <source src="sound/Programming Coding Hacking music vol.18 (ANONYMOUS HEADQUARTERS) (online-audio-converter.com).wav" type="audio/mpeg">
+</audio>
+
+<div id="welcome-login">
+  <h1>Welcome to the hacking game!</h1>
+  <input id="login-input" type="text" placeholder="Hacker nickname">
+</div>
+  
+<div id="terminal">
+    <div>Loading...<span id="blinking">_</span></div>
+</div>
+
+<div id="root">></div>
+<input id="input" type="text" placeholder="Enter your command here..." autofocus>
+
+<div id="time">Trace time: 0:00</div>
+
+<ol id="objectives">
+  Bienvenue au jeu de hacking.<br><br>
+  <div id="won">Félicitations! Vous allez recevoir toutes les conversations importantes de ce relais téléphonique.</div>
+  <div id="lost">Vous avez été suivi. Vous feriez mieux de courir pendant que vous pouvez... Processus d’autodistribution par ordinateur nettoiera le reste...</div><br>
+  Objectifs :
+  <li id="help">Tapez 'help' dans la console, en bas de l’écran.</li>
+  <li id="list">Vérifiez la liste des applications actuellement disponibles. (list)</li>
+  <li id="connect">Connexion au relais téléphonique le plus proche (connect nearest.phone.relay).</li>
+  <li id="trojan">Envoyez un cheval de Troie au relais téléphonique auquel vous venez de vous connecter (send trojan).</li>
+  <li id="disconnect">Disconnect from the phone relay before you are traced down.(disconnect)</li>
+</ol>
+
+<footer>
+ &copy; Copyright 2022 Liweyz/Thomas tous droits réservés.
+</footer>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
